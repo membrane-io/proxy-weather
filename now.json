@@ -1,0 +1,13 @@
+{
+	"version": 2,
+	"alias": "membrane-weather.now.sh",
+	"builds": [{ "src": "**/*.js", "use": "@now/node" }],
+	"routes": [
+		{ "src": "wheater/.*", "dest": "/wheater/index.js" },
+		{ "src": "forecast/.*", "dest": "/forecast/index.js" },
+		{ "src": "/", "status": 404 }
+	],
+	"env": {
+		"TOKEN": ""
+	}
+}

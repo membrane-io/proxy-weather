@@ -1,5 +1,3 @@
-readme.md
-
 ### Call 5 day / 3 hour forecast data
 
 > By city name
